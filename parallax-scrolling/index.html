@@ -21,7 +21,76 @@
         <img src="./Assets/stars.png" id="stars" />
         <img src="./Assets/moon.png" id="moon" />
         <img src="./Assets/mountains_behind.png" id="mountains-behind" />
+        <h2 id="text">Welcome to Lupin League</h2>
+        <a href="#" id="btn">Explore</a>
         <img src="./Assets/mountains_front.png" id="mountains-front" />
     </section>
+    <div class="sec" id="sec">
+        <h2>WHAT DO WE OFFER?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer
+        e magnam temporibus perferendis sint deserunt, animi id nec
+        essitatibus eligendi provident illo porro voluptatem suscipit!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+        asperiores iusto in perspiciatis saepe corporis ab rerum ass
+        umenda reprehenderit commodi deleniti, sint neque dolores in
+        ventore molestias non eum id nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer <br/><br />
+        e magnam temporibus perferendis sint deserunt, animi id nec
+        essitatibus eligendi provident illo porro voluptatem suscipit!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+        asperiores iusto in perspiciatis saepe corporis ab rerum ass
+        umenda reprehenderit commodi deleniti, sint neque dolores in
+        ventore molestias non eum id nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer
+        e magnam temporibus perferendis sint deserunt, animi id nec
+        essitatibus eligendi provident illo porro voluptatem suscipit!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+        asperiores iusto in perspiciatis saepe corporis ab rerum ass
+        umenda reprehenderit commodi deleniti, sint neque dolores in
+        ventore molestias non eum id nemo!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer
+        e magnam temporibus perferendis sint deserunt, animi id nec
+        essitatibus eligendi provident illo porro voluptatem suscipit!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+        asperiores iusto in perspiciatis saepe corporis ab rerum ass
+        umenda reprehenderit commodi deleniti, sint neque dolores in
+        ventore molestias non eum id nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer <br/><br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer
+        e magnam temporibus perferendis sint deserunt, animi id nec
+        essitatibus eligendi provident illo porro voluptatem suscipit!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+        asperiores iusto in perspiciatis saepe corporis ab rerum ass
+        umenda reprehenderit commodi deleniti, sint neque dolores in
+        ventore molestias non eum id nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer <br/><br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer
+        e magnam temporibus perferendis sint deserunt, animi id nec
+        essitatibus eligendi provident illo porro voluptatem suscipit!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+        asperiores iusto in perspiciatis saepe corporis ab rerum ass
+        umenda reprehenderit commodi deleniti, sint neque dolores in
+        ventore molestias non eum id nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Veri
+        amet facilis rerum architecto praesentium blanditiis facer <br/><br />
+    </p>
+    </div>
+
+    <script>
+        let stars = document.getElementById("stars") 
+        let moon = document.getElementById("moon") 
+        let mountains_behind = document.getElementById("mountains-behind") 
+        let mountains_front = document.getElementById("mountains-front") 
+        let btn = document.getElementById("btn") 
+        let text = document.getElementById("text") 
+        
+        window.addEventListener("scroll", ()=>{
+            let value= window.scrollY;
+            stars.style.left = value+ 'px';
+            text.style.right = value*2.0 + 'px';
+        })
+    </script>
 </body>
 </html>
